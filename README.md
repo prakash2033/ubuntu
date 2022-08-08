@@ -32,7 +32,10 @@ cd st
 sudo make clean install
 ```
 ### .xsession file: use for configure dwm x session
-`wget https://raw.githubusercontent.com/prakash2033/ubuntu/main/dwm/xsession.slstatus -O ~/.xsession`
+```
+wget https://raw.githubusercontent.com/prakash2033/ubuntu/main/dwm/xsession.slstatus -O ~/.xsession
+wget https://raw.githubusercontent.com/prakash2033/ubuntu/main/dwm/xprofile -O ~/.xprofile
+```
 
 ### Configure X Session Manager
 ```
