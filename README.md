@@ -58,6 +58,6 @@ chmod 744 .xsession
 ### Configure Terminal
 ```
 sudo update-alternatives --list x-terminal-emulator
-sudo update-alternatives --install $(which x-terminal-emulator) x-terminal-emulator $(which st) 20 
+sudo update-alternatives --install $(which x-terminal-emulator) x-terminal-emulator $(which st) 20
 sudo update-alternatives --config x-terminal-emulator
 ```
