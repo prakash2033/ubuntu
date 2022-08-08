@@ -1,1 +1,1 @@
-$HOME/.config/shell/profile
+/home/pvishwa1/.config/shell/profile

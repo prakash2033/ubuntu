@@ -1,1 +1,1 @@
-/home/bugs/.config/x11/xinitrc
+/home/pvishwa1/.config/x11/xinitrc
