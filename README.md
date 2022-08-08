@@ -16,6 +16,8 @@ git clone https://git.suckless.org/dwm
 cd dwm
 sudo make clean install
 ```
+### .xsession file: use for configure dwm x session
+`wget https://raw.githubusercontent.com/prakash2033/ubuntu/main/dwm/xsession.slstatus -O ~/.xsession`
 
 # Install slstatus
 ```
