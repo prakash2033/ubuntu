@@ -1,4 +1,4 @@
-# ubuntu
+# ubuntu 22.04 /debian 11 - dwm
 
 ## Pre-requisites
 ```
@@ -8,6 +8,27 @@ sudo apt install feh picom dunst udiskie network-manager-gnome udiskie lxappeara
 pip3 install pywal
 
 mkdir -p ~/Public/gitrepo
+```
+
+### symlink all folders (trailing slash */) in dotfiles dir to home dir
+```
+cd ~/Public/gitrepo/ubuntu/dotfiles
+stow -v -t ~ */
+```
+
+### if new folder is added then:
+#### redo link (-R)
+```
+cd ~/Public/gitrepo/ubuntu/dotfiles
+stow -v -R -t ~ */
+```
+
+### if folder was deleted then:
+#### delete (-D flag then -R to relink)
+```
+vcd ~/Public/gitrepo/ubuntu/dotfiles
+stow -v -D -t ~ */
+stow -v -R -t ~ */
 ```
 
 ## Install dwm
