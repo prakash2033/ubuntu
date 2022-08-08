@@ -7,11 +7,11 @@ sudo apt install xorg build-essential suckless-tools libxft-dev libxinerama-dev 
 sudo apt install feh picom dunst udiskie network-manager-gnome udiskie -y
 
 mkdir -p ~/Public/gitrepo
-cd ~/Public/gitrepo
 ```
 
 ## Install dwm
 ```
+cd ~/Public/gitrepo
 git clone https://git.suckless.org/dwm
 cd dwm
 sudo make clean install
