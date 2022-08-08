@@ -1,0 +1,1 @@
+/home/pvishwa1/.config/shell/profile

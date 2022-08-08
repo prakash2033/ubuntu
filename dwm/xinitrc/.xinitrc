@@ -1,0 +1,1 @@
+/home/pvishwa1/.config/x11/xinitrc
