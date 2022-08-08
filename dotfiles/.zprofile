@@ -1,1 +1,1 @@
-/home/bugs/.config/shell/profile
+$HOME/.config/shell/profile
