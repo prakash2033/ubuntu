@@ -21,7 +21,7 @@ sudo make clean install
 ```
 git clone https://git.suckless.org/slstatus
 cd slstatus
-make clean install
+sudo make clean install
 ```
 
 ## Install st
