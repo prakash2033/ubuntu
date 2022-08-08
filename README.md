@@ -50,7 +50,7 @@ sudo update-alternatives --config x-session-manager
 ### Support Display Manager
 ```
 sudo wget https://raw.githubusercontent.com/prakash2033/ubuntu/main/dwm/dwm.desktop -O /usr/share/xsessions/dwm.desktop
-sudo update-alternatives --install $(which x-window-manager) x-window-manager $(which dwm) 20'
+sudo update-alternatives --install $(which x-window-manager) x-window-manager $(which dwm) 20
 cd $HOME
 chmod 744 .xsession
 ```
@@ -58,6 +58,6 @@ chmod 744 .xsession
 ### Configure Terminal
 ```
 sudo update-alternatives --list x-terminal-emulator
-sudo update-alternatives --install $(which x-terminal-emulator) x-terminal-emulator $(which st) 20 
+sudo update-alternatives --install $(which x-terminal-emulator) x-terminal-emulator $(which st) 20
 sudo update-alternatives --config x-terminal-emulator
 ```
