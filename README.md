@@ -19,6 +19,7 @@ sudo make clean install
 
 # Install slstatus
 ```
+cd ~/Public/gitrepo
 git clone https://git.suckless.org/slstatus
 cd slstatus
 sudo make clean install
