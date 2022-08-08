@@ -5,12 +5,13 @@
 sudo apt update
 sudo apt install xorg build-essential suckless-tools libxft-dev libxinerama-dev libx11-dev
 sudo apt install feh
+
+mkdir -p ~/Public/gitrepo
+cd ~/Public/gitrepo
 ```
 
 ## Install dwm
 ```
-mkdir -p ~/Public/gitrepo
-cd ~/Public/gitrepo
 git clone https://git.suckless.org/dwm
 cd dwm
 sudo make clean install
