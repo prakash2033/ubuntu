@@ -1,16 +1,15 @@
-#!/usr/bin/env bash
-
+#!/bin/sh
 # Use either .xsession, .xinitrc, .xprofile for below scripts
 
 #xrdb -merge .Xresources
 
 # wallpaper
-#feh --bg-scale ~/.wallpapers/slim-dwm01.png
-udiskie &           # Autommount removable disks
-nm-applet &         # Network Manager applet
+nitrogen --restore &
+# udiskie &           # Autommount removable disks
+# nm-applet &         # Network Manager applet
 #blueman-applet &    # Bluetooth applet
 #blueberry-tray &    # Bluetooth tray icon
-picom &             # picom for transparency
-dunst &             # dunst for notifications
-/usr/lib/polkit-kde-authentication-agent-1 & # KDE Authentication Agent
-slstatus
+# picom &             # picom for transparency
+# dunst &             # dunst for notifications
+# /usr/lib/polkit-kde-authentication-agent-1 & # KDE Authentication Agent
+slstatus &
