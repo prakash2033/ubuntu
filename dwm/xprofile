@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#xrdb -merge .Xresources
+
+# wallpaper
+#feh --bg-scale ~/.wallpapers/slim-dwm01.png
+
+# dwm launch
+exec slstatus
