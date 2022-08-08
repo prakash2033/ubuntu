@@ -4,6 +4,7 @@
 ```
 sudo apt update
 sudo apt install xorg build-essential suckless-tools libxft-dev libxinerama-dev libx11-dev
+sudo apt install feh
 ```
 
 ## Install dwm
@@ -13,6 +14,13 @@ cd ~/Public/gitrepo
 git clone https://git.suckless.org/dwm
 cd dwm
 sudo make clean install
+```
+
+# Install slstatus
+```
+git clone https://git.suckless.org/slstatus
+cd slstatus
+make clean install
 ```
 
 ## Install st
