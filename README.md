@@ -5,6 +5,7 @@
 sudo apt update
 sudo apt install xorg build-essential suckless-tools libxft-dev libxinerama-dev libx11-dev
 sudo apt install feh picom dunst udiskie network-manager-gnome udiskie lxappearance sxhkd -y
+pip3 install pywal
 
 mkdir -p ~/Public/gitrepo
 ```
