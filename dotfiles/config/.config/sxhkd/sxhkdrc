@@ -14,3 +14,9 @@ XF86MonBrightness{Up,Down}
 
 super + Escape
 	system_action
+
+super + r
+	st -e ranger
+
+super + w
+	$BROWSER	
