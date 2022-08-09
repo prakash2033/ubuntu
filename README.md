@@ -7,6 +7,9 @@ sudo apt install xorg build-essential suckless-tools libxft-dev libxinerama-dev 
 sudo apt install feh picom dunst udiskie network-manager-gnome udiskie lxappearance sxhkd xwallpaper xcompmgr -y
 pip3 install pywal
 
+sudo apt-get install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev -y
+sudo apt install libxcb-res0-dev -y
+
 mkdir -p ~/Public/gitrepo
 ```
 
