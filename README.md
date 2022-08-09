@@ -10,33 +10,36 @@ pip3 install pywal
 sudo apt-get install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev -y
 sudo apt install libxcb-res0-dev -y
 
-mkdir -p ~/Public/gitrepo
+mkdir -p ~/public/gitrepo
+cd ~/public/gitrepo/ubuntu/dotfiles
+ln -s $HOME/.config/x11/xinitrc .xinitrc
+ln -s $HOME/.config/shell/profile .zprofile
 ```
 
 ### symlink all folders (trailing slash */) in dotfiles dir to home dir
 ```
-cd ~/Public/gitrepo/ubuntu/dotfiles
+cd ~/public/gitrepo/ubuntu/dotfiles
 stow -v -t ~ */
 ```
 
 ### if new folder is added then:
 #### redo link (-R)
 ```
-cd ~/Public/gitrepo/ubuntu/dotfiles
+cd ~/public/gitrepo/ubuntu/dotfiles
 stow -v -R -t ~ */
 ```
 
 ### if folder was deleted then:
 #### delete (-D flag then -R to relink)
 ```
-vcd ~/Public/gitrepo/ubuntu/dotfiles
+cd ~/public/gitrepo/ubuntu/dotfiles
 stow -v -D -t ~ */
 stow -v -R -t ~ */
 ```
 
 ## Install dwm
 ```
-cd ~/Public/gitrepo
+cd ~/public/gitrepo
 git clone https://git.suckless.org/dwm
 cd dwm
 sudo make clean install
@@ -44,7 +47,7 @@ sudo make clean install
 
 # Install slstatus
 ```
-cd ~/Public/gitrepo
+cd ~/public/gitrepo
 git clone https://git.suckless.org/slstatus
 cd slstatus
 sudo make clean install
@@ -52,7 +55,7 @@ sudo make clean install
 
 ## Install st
 ```
-cd ~/Public/gitrepo
+cd ~/public/gitrepo
 git clone https://git.suckless.org/st
 cd st
 sudo make clean install
